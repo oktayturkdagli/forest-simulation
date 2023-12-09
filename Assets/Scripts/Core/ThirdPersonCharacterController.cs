@@ -4,6 +4,9 @@ namespace Core
 {
     public class ThirdPersonCharacterController : MonoBehaviour
     {
+        [Header("Required Components")]
+        [SerializeField] private GridManager gridManager;
+        
         [Header("Movement")]
         [SerializeField] private float speed = 5f;
         private CharacterController _controller;
@@ -23,32 +26,40 @@ namespace Core
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
+            
+            // Spawn the Player at the center of the Grid
+            transform.position = gridManager.width / 2f * Vector3.right + gridManager.height / 2f * Vector3.forward;
         }
         
         private void Update()
         {
             HandleMovement();
-            HandleGravityAndJump();
         }
         
         private void LateUpdate()
         {
             RotateWithMouse();
         }
-
+        
         private void HandleMovement()
         {
-            var movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+            var inputs = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
             
-            if (movement.magnitude >= 0.1f)
+            var movementVector = Vector3.zero;
+            if (inputs.magnitude >= 0.1f)
             {
                 var transformReference = transform;
-                var moveDirection = transformReference.forward * movement.z + transformReference.right * movement.x;
-                _controller.Move(moveDirection * (speed * Time.deltaTime));
+                var moveDirection = transformReference.forward * inputs.z + transformReference.right * inputs.x;
+                movementVector = moveDirection * (speed * Time.deltaTime);
             }
+            
+            var jumpVector = CalculateGravityAndJump();
+            var finalVector = movementVector + jumpVector;
+            
+            _controller.Move(finalVector);
         }
 
-        private void HandleGravityAndJump()
+        private Vector3 CalculateGravityAndJump()
         {
             // Apply groundedGravity when the Player is Grounded
             if (_controller.isGrounded && _velocityY < 0f)
@@ -62,7 +73,7 @@ namespace Core
             
             // Applying gravity when Player is not grounded
             _velocityY -= gravity * gravityMultiplier * Time.deltaTime;
-            _controller.Move(Vector3.up * (_velocityY * Time.deltaTime));
+            return Vector3.up * (_velocityY * Time.deltaTime);
         }
 
         private void RotateWithMouse()
