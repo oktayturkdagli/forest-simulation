@@ -143,3 +143,5 @@ a
 1Assets/Plugins/TextMesh Pro/Sprites/EmojiOne.json,8\c\8c2e8fe9dd33aabf914d62229581dffcf967d077
 a
 1Assets/Shaders/Skybox/SkyboxGradientShader.shader,5\2\52f2b417997a85922087354116d462f4367144ff
+R
+"Assets/Scripts/Core/GridManager.cs,5\3\53612c97cdd8e646b9bd6b6d2a5dcf1de71de862
