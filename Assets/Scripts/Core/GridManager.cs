@@ -1,3 +1,4 @@
+using Unity.AI.Navigation;
 using UnityEngine;
 
 namespace Core
@@ -11,10 +12,13 @@ namespace Core
         [field: SerializeField] public GameObject[] RockPrefabs { get; set; }
         [field: SerializeField] public GameObject[] AnimalPrefabs { get; set; }
         [field: SerializeField] public float CellSize { get; set; } = 1f;
-        
+
         private void Start()
         {
             GenerateGrid();
+            GenerateStaticObjects();
+            BuildNavMesh();
+            GenerateDynamicObjects();
         }
         
         private void GenerateGrid()
@@ -28,39 +32,75 @@ namespace Core
                     // Place floor for each cell
                     var groundPrefab = Instantiate(GroundPrefab, position, Quaternion.identity);
                     groundPrefab.transform.parent = transform;
-                    
-                    // Place objects
-                    var placedObject = PlaceRandomObject(TreePrefabs, RockPrefabs, position);
-                    if (placedObject != null)
-                        placedObject.transform.parent = transform;
                 }
             }
         }
         
-        private GameObject PlaceRandomObject(GameObject[] trees, GameObject[] rocks, Vector3 position)
+        private void GenerateStaticObjects()
         {
+            for (var x = 0; x < Width; x++)
+            {
+                for (var z = 0; z < Height; z++)
+                {
+                    var position = new Vector3(x * CellSize, 0, z * CellSize);
+                    
+                    // Place rocks and trees
+                    PlaceRocksAndTreesObject(position);
+                }
+            }
+        }
+        
+        private void GenerateDynamicObjects()
+        {
+            for (var x = 0; x < Width; x++)
+            {
+                for (var z = 0; z < Height; z++)
+                {
+                    var position = new Vector3(x * CellSize, 0, z * CellSize);
+                    
+                    // Place animals
+                    PlaceAnimalObject(position);
+                }
+            }
+        }
+        
+        private void PlaceRocksAndTreesObject(Vector3 position)
+        {
+            var randomValue = Random.value;
+            
             GameObject placedObject = null;
+            if (randomValue > 0.05 && randomValue <= 0.12) // Place tree with 11.5% chance
+            {
+                var tree = TreePrefabs[Random.Range(0, TreePrefabs.Length)];
+                placedObject = Instantiate(tree, position, Quaternion.identity);
+                placedObject.transform.parent = transform;
+            }
+            
+            else if (randomValue > 0.12 && randomValue <= 0.17) // Place the rock with 5% chance
+            {
+                var rock = RockPrefabs[Random.Range(0, RockPrefabs.Length)];
+                placedObject = Instantiate(rock, position, Quaternion.identity);
+                placedObject.transform.parent = transform;
+            }
+        }
+        
+        private void PlaceAnimalObject(Vector3 position)
+        {
             var randomValue = Random.value;
             
             if (randomValue <= 0.005) // Place animal with 0.5% chance
             {
                 var animal = AnimalPrefabs[Random.Range(0, AnimalPrefabs.Length)];
-                placedObject = Instantiate(animal, position, Quaternion.identity);
+                var placedObject = Instantiate(animal, position, Quaternion.identity);
+                placedObject.transform.parent = transform;
             }
-            
-            else if (randomValue > 0.05 && randomValue <= 0.15) // Place tree with 10% chance
-            {
-                var tree = trees[Random.Range(0, trees.Length)];
-                placedObject = Instantiate(tree, position, Quaternion.identity);
-            }
-            
-            else if (randomValue > 0.15 && randomValue <= 0.25) // Place the rock with 10% chance
-            {
-                var rock = rocks[Random.Range(0, rocks.Length)];
-                placedObject = Instantiate(rock, position, Quaternion.identity);
-            }
-            
-            return placedObject;
+        }
+        
+        private void BuildNavMesh()
+        {
+            var navMeshSurface = GetComponent<NavMeshSurface>();
+            if (navMeshSurface != null)
+                navMeshSurface.BuildNavMesh();
         }
     }
 }
