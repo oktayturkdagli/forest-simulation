@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 139438412}
+  - component: {fileID: 139438413}
   - component: {fileID: 139438411}
   m_Layer: 0
   m_Name: GridManager
@@ -156,15 +157,15 @@ MonoBehaviour:
   <Height>k__BackingField: 100
   <GroundPrefab>k__BackingField: {fileID: 7075395676573562115, guid: b16e8cb0248d0b6449c2220bb22d2564, type: 3}
   <TreePrefabs>k__BackingField:
-  - {fileID: 919132149155446097, guid: 4fbf70408367e2746923561eec6471b9, type: 3}
-  - {fileID: 919132149155446097, guid: 0a113f408a19ec442abec7781e182050, type: 3}
-  - {fileID: 919132149155446097, guid: 173cb49ca69244a408623076c17a0244, type: 3}
-  - {fileID: 919132149155446097, guid: f13e7dcf5b68dd44eaea80dfd766d991, type: 3}
-  - {fileID: 919132149155446097, guid: db0b37a44502ff2468c80a9156a9dce3, type: 3}
+  - {fileID: 8363564069328088774, guid: 33a2ef0ecf5d7364a841ba5b9bd31fe2, type: 3}
+  - {fileID: 1302312938019658266, guid: a3adbc78ca575d5449be813fdc80d7dd, type: 3}
+  - {fileID: 1564849647202940490, guid: fc8c24eecda40c140bcb18ed210c7b32, type: 3}
+  - {fileID: 2207217512052858240, guid: 2924ded641ee5fb469c636ce8ec45a2f, type: 3}
+  - {fileID: 5095954444773303960, guid: 43763bb214d8a1346adb8515156bf296, type: 3}
   <RockPrefabs>k__BackingField:
-  - {fileID: 919132149155446097, guid: f7bd42c2a9757934583fc14f5853abeb, type: 3}
-  - {fileID: 919132149155446097, guid: 933608ad1019a7c40aad8c533ce43b7d, type: 3}
-  - {fileID: 919132149155446097, guid: 5eb7ebf1c5c5a5a40a128be66140552f, type: 3}
+  - {fileID: 306174822434584141, guid: 992ed9c85cf877148aa3ec7401683bf1, type: 3}
+  - {fileID: 3457771210747602345, guid: 6789fb3bbf47d2d479dfe261c272e7d7, type: 3}
+  - {fileID: 354578248538000338, guid: e52c6d942896c344fb3fed4c82df6ffe, type: 3}
   <AnimalPrefabs>k__BackingField:
   - {fileID: 6182162820492919152, guid: e3e000180e9c55a4f8d6da72aa3545d4, type: 3}
   - {fileID: 6842458599697738422, guid: cad946f8200f6364ba6b4d2fcb92daa1, type: 3}
@@ -188,6 +189,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139438413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139438410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
 --- !u!1 &160127383
 GameObject:
   m_ObjectHideFlags: 0

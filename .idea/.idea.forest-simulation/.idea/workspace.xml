@@ -4,313 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7712957d-3314-4138-9975-caa8d76c74fd" name="Changes" comment="refactor: make minor changes">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Colobus.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Colobus.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Gecko.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Gecko.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Herring.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Herring.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Muskrat.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Muskrat.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Pudu.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Pudu.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Sparrow.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Sparrow.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Squid.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Squid.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Taipan.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Taipan.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Colobus_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Colobus_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Gecko_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Gecko_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Herring_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Herring_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Muskrat_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Muskrat_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Squid_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Squid_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Taipan_Animations.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/Taipan_Animations.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Demo/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Demo/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Gecko.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Gecko.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Herring.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Herring.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Muskrat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Muskrat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Pudu.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Pudu.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Sparrow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Sparrow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Squid.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Squid.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Colobus_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Herring_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Muskrat_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Pudu_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Squid_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD0.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD0.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD3.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Models/Taipan_LOD3.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Colobus.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Colobus.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Gecko.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Gecko.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Herring.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Herring.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Pudu.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Pudu.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Sparrow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Sparrow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Squid.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Squid.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Taipan.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Prefabs/Taipan.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Colobus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Colobus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Gecko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Gecko.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Herring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Herring.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Muskrat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Muskrat.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Pudu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Pudu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Sparrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Sparrow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Squid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Squid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Taipan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Textures/T_Taipan.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Cry.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Cry.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Dead.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Dead.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Excited.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Happy.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Happy.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookIn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookIn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookOut.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookOut.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookUp.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_LookUp.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Rabid.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Rabid.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sad.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sad.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Shrink.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Shrink.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sleep.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Sleep.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Spin.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Spin.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Squint.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Squint.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Trauma.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Trauma.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Sweat_L.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Sweat_L.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Sweat_R.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Sweat_R.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_L.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_L.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_R.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Animations/Shapekey/Teardrop_R.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/DemoController.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/DemoController.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/M_DemoPlane.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/M_DemoPlane.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/SoftSurface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/SoftSurface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/ToonRamp.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/ToonRamp.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/URP (Unity 2019.3.0f3 and above).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/URP (Unity 2019.3.0f3 and above)/SoftSurfaceGraph.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/_Shader/URP (Unity 2019.3.0f3 and above)/SoftSurfaceGraph.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Colobus.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Colobus.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Gecko.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Gecko.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Muskrat.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Muskrat.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Pudu.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Pudu.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Sparrow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Sparrow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Taipan.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Taipan.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GridManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GridManager.cs" afterDir="false" />
-    </list>
-    <list id="8df1af0a-8e90-4c48-b541-38f3d77d80b7" name="Ignored" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/issuestore/3/4/3499a44c266ee4d21b8b54169c86317643274760" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/issuestore/6/c/6c06b3954bf97b6014ea1b333d4b972669b8d33f" beforeDir="false" />
+    <list default="true" id="7712957d-3314-4138-9975-caa8d76c74fd" name="Changes" comment="feat: add animals to game">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockLarge.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockLarge.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockSmall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockSmall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockWide.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rocks/rockWide.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeCrooked.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeCrooked.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHigh.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHigh.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHighCrooked.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHighCrooked.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHighRound.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/treeHighRound.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimalAnimatorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimalAnimatorController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimalController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/AnimalController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/securityhotspotstore/3/4/3499a44c266ee4d21b8b54169c86317643274760" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/securityhotspotstore/6/c/6c06b3954bf97b6014ea1b333d4b972669b8d33f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Rocks/rockLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Rocks/rockLarge.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Rocks/rockSmall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Rocks/rockSmall.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Rocks/rockWide.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Rocks/rockWide.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Trees/tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Trees/tree.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Trees/treeCrooked.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Trees/treeCrooked.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Trees/treeHigh.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Trees/treeHigh.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Trees/treeHighCrooked.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Trees/treeHighCrooked.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Trees/treeHighRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Trees/treeHighRound.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Colobus.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Colobus.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Gecko.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Gecko.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Herring.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Herring.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Muskrat.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Muskrat.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Pudu.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Pudu.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Sparrow.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Sparrow.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Squid.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Squid.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Taipan.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Quirky Series Ultimate/FREE/Animations/AC_Taipan.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Colobus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Colobus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Gecko.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Gecko.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Muskrat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Muskrat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Pudu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Pudu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Sparrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Sparrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animals/Taipan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animals/Taipan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GroundPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GroundPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GridManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GridManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
+    <list id="8df1af0a-8e90-4c48-b541-38f3d77d80b7" name="Ignored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,23 +74,11 @@
     <setting file="file://$PROJECT_DIR$/../NaughtyCharacter/Assets/NaughtyCharacter/_Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../NaughtyCharacter/Assets/NaughtyCharacter/_Scripts/SpringArm.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity Workspace/forest-simulation/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity Workspace/forest-simulation/Assets/Scripts/Core/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity Workspace/forest-simulation/Assets/Scripts/Core/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Unity Workspace/forest-simulation/Assets/Scripts/Core/ThirdPersonCharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/.idea.forest-simulation/.idea/workspace.xml">
-      <ranges>
-        <range start1="6" end1="2376" start2="6" end2="307" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2377" end1="2377" start2="308" end2="310" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2379" end1="2397" start2="312" end2="312" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2407" end1="2407" start2="322" end2="328" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2408" end1="2409" start2="329" end2="345" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2491" end1="2491" start2="427" end2="428" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2500" end1="2501" start2="437" end2="486" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-        <range start1="2506" end1="2506" start2="491" end2="502" changelist="8df1af0a-8e90-4c48-b541-38f3d77d80b7" />
-        <range start1="2510" end1="2511" start2="506" end2="513" changelist="7712957d-3314-4138-9975-caa8d76c74fd" />
-      </ranges>
-    </file>
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Runtime/NavMeshSurface.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -425,7 +161,7 @@
       <workItem from="1702111348567" duration="63000" />
       <workItem from="1702111673084" duration="67000" />
       <workItem from="1702112108947" duration="2774000" />
-      <workItem from="1702212918959" duration="2582000" />
+      <workItem from="1702212918959" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <option name="closed" value="true" />
@@ -483,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702213344948</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore: add animals assets">
+      <option name="closed" value="true" />
+      <created>1702215618911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702215618911</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add animals to game">
+      <option name="closed" value="true" />
+      <created>1702215643218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702215643218</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -510,6 +262,8 @@
     <MESSAGE value="chore: update scene" />
     <MESSAGE value="fix: jumping does not work when moving" />
     <MESSAGE value="refactor: make minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: make minor changes" />
+    <MESSAGE value="chore: add animals assets" />
+    <MESSAGE value="feat: add animals to game" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add animals to game" />
   </component>
 </project>

@@ -131,3 +131,7 @@ m
 =Assets/Plugins/Quirky Series Ultimate/_Shader/ToonRamp.shader,6\d\6de9320a54a92857ecd565f756adcaf41cf358ff
 p
 @Assets/Plugins/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs,5\a\5a79d10e5307ac7eaa751758d3783c76ac4bfe36
+W
+'Assets/Scripts/Core/AnimalController.cs,0\6\06f5720a8f73fbdf5f37fb79df3045528bc1e57a
+_
+/Assets/Scripts/Core/AnimalAnimatorController.cs,0\8\08406d1ea0c5bed50c741aabd0d98eb7a4134001
