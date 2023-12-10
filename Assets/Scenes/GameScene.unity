@@ -152,20 +152,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 266bccd977e7aff40a6ba6ac97cc5ec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 100
-  height: 100
-  groundPrefab: {fileID: 7075395676573562115, guid: b16e8cb0248d0b6449c2220bb22d2564, type: 3}
-  treePrefabs:
+  <Width>k__BackingField: 100
+  <Height>k__BackingField: 100
+  <GroundPrefab>k__BackingField: {fileID: 7075395676573562115, guid: b16e8cb0248d0b6449c2220bb22d2564, type: 3}
+  <TreePrefabs>k__BackingField:
   - {fileID: 919132149155446097, guid: 4fbf70408367e2746923561eec6471b9, type: 3}
   - {fileID: 919132149155446097, guid: 0a113f408a19ec442abec7781e182050, type: 3}
   - {fileID: 919132149155446097, guid: 173cb49ca69244a408623076c17a0244, type: 3}
   - {fileID: 919132149155446097, guid: f13e7dcf5b68dd44eaea80dfd766d991, type: 3}
   - {fileID: 919132149155446097, guid: db0b37a44502ff2468c80a9156a9dce3, type: 3}
-  rockPrefabs:
+  <RockPrefabs>k__BackingField:
   - {fileID: 919132149155446097, guid: f7bd42c2a9757934583fc14f5853abeb, type: 3}
   - {fileID: 919132149155446097, guid: 933608ad1019a7c40aad8c533ce43b7d, type: 3}
   - {fileID: 919132149155446097, guid: 5eb7ebf1c5c5a5a40a128be66140552f, type: 3}
-  cellSize: 1
+  <AnimalPrefabs>k__BackingField:
+  - {fileID: 6182162820492919152, guid: e3e000180e9c55a4f8d6da72aa3545d4, type: 3}
+  - {fileID: 6842458599697738422, guid: cad946f8200f6364ba6b4d2fcb92daa1, type: 3}
+  - {fileID: 4950779065795438720, guid: f8dfa466f85ade9408076eb50d48f616, type: 3}
+  - {fileID: 5279811246306103102, guid: f77d7c52d197ca54aa81721db85301e8, type: 3}
+  - {fileID: 6788538757290762323, guid: 94f617964468b814ba3dc164a8d6255b, type: 3}
+  - {fileID: 4807929556901506227, guid: 4ad6326f456f89c49a7c15810071e506, type: 3}
+  <CellSize>k__BackingField: 1
 --- !u!4 &139438412
 Transform:
   m_ObjectHideFlags: 0

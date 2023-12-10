@@ -3,10 +3,6 @@ F
 Packages/manifest.json,c\c\cc2c44fef6067b608c229f816ad03fa26e70a2f4
 U
 %Assets/Scripts/Utilities/Singleton.cs,9\0\90d0ee0be9f5dcc3ba12c6e3d68a4d85c90e6338
-N
-Assets/Editor/CreateFolders.cs,3\4\3499a44c266ee4d21b8b54169c86317643274760
-U
-%Assets/Editor/CreateInitialFolders.cs,6\c\6c06b3954bf97b6014ea1b333d4b972669b8d33f
 U
 %Assets/Editor/CreateDefaultFolders.cs,0\2\023458b930d4ccf261180d6abb6a12004e2e942e
 {
@@ -19,44 +15,26 @@ p
 @Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs,9\c\9c431aa7934ccf1ac8c8f1c7cbf895c3be99cd32
 o
 ?Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs,9\9\9928811fb25e44f9a7db0d870bfc41a9856b5de7
-G
-Assets/Data/gitkeep.txt,b\3\b31106518f076afa622575a81e51af4c8f4415f9
 w
 GProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json,d\6\d68961c1903907dc7b643f3b77fda84a293e147f
 n
 >Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs,c\2\c263f1d15535a1c1227f460794a6f8eefff56d74
 k
 ;Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs,9\e\9e556a103bc8f70a186d97d12918e1a7711bcd6a
-O
-Assets/Scripts/Data/gitkeep.txt,9\6\965931d150ca402e3e6aa609e6e56b407dbae960
 u
 EAssets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs,d\8\d8b29e2b1283f6fc89028b0b57df36dfd004eeef
-M
-Assets/Animations/gitkeep.txt,7\2\72af8b628235ebd0aa63b1ec6a203eec3d68ae7f
 r
 BAssets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs,e\6\e645e888106a9c765fa778ed43ea4eb3d23114cf
-K
-Assets/UI/Icons/gitkeep.txt,0\5\054c0e24685f1fb1a397bce3c530eecf902424e0
 n
 >Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs,d\5\d5c64cfde24cc06c216899849e1c4be72d40eb03
-J
-Assets/Effects/gitkeep.txt,6\f\6ff16db939c6bc864e42826447aabb3059fd0d56
 K
 Packages/packages-lock.json,e\e\ee5c02414182ac2ee9793586b738cae04287b8bf
 s
 CAssets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs,5\1\51a9d03074816e2f7de1ef530c2fb1651ac65b15
 m
 =Assets/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt,4\e\4e55f59cf7685e2f3d9b400d3539cb4c58025043
-J
-Assets/Sprites/gitkeep.txt,7\7\77c73ef49c323c897f913aea8f8f6d06fb4ef46b
-Q
-!Assets/Scripts/Inputs/gitkeep.txt,e\a\ea7e4b10f721d2d11f201e539da9cf050dfa0e62
 j
 :Assets/Plugins/TextMesh Pro/Fonts/LiberationSans - OFL.txt,8\a\8a6c0dbffba20efc39ff22ea6b576e6dde72b0d9
-L
-Assets/UI/Assets/gitkeep.txt,e\0\e0183b5f3dfe52ccb24c1beedf970d0f303b0299
-J
-Assets/Prefabs/gitkeep.txt,b\b\bb6146091df4d339b6f315abe5959311925e902b
 e
 5Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap.shader,5\6\560aeaf1473c4a0dc0566af9f1245cab135df29e
 R
@@ -71,8 +49,6 @@ q
 AAssets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader,6\5\6589783fab9c99c66252325fe80593d81256be64
 \
 ,ProjectSettings/VersionControlSettings.asset,e\1\e1070488b2ff70f83c1e9d4377803fb3958c62c1
-O
-Assets/Scripts/Core/gitkeep.txt,0\6\06767d0ef0a93ab2206542b9f391e62adc74161a
 m
 =Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader,6\d\6d258c6bdc59f1669a288470c83c29bf28ad93a2
 P
@@ -145,3 +121,13 @@ a
 1Assets/Shaders/Skybox/SkyboxGradientShader.shader,5\2\52f2b417997a85922087354116d462f4367144ff
 R
 "Assets/Scripts/Core/GridManager.cs,5\3\53612c97cdd8e646b9bd6b6d2a5dcf1de71de862
+e
+5Assets/Scripts/Core/ThirdPersonCharacterController.cs,6\a\6a5584d97a7df380154a160ea399003992f24804
+r
+BAssets/Plugins/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs,4\4\44324ce0f4b1905d50422491deb105bda6e6b1fd
+p
+@Assets/Plugins/Quirky Series Ultimate/_Shader/SoftSurface.shader,8\b\8b4f719afa6411509217ffebc770c72764950204
+m
+=Assets/Plugins/Quirky Series Ultimate/_Shader/ToonRamp.shader,6\d\6de9320a54a92857ecd565f756adcaf41cf358ff
+p
+@Assets/Plugins/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs,5\a\5a79d10e5307ac7eaa751758d3783c76ac4bfe36
