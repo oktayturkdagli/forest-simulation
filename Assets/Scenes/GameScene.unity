@@ -640,6 +640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThirdPesonCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 8724346976318062221, guid: 166297310460e9e4ea5b006a29e22442, type: 3}
+      propertyPath: gridManager
+      value: 
+      objectReference: {fileID: 139438411}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

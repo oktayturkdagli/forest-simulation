@@ -4,40 +4,40 @@ namespace Core
 {
     public class GridManager : MonoBehaviour
     {
-        public int width = 100;
-        public int height = 100;
-        public GameObject groundPrefab; // Zemin için prefab
-        public GameObject[] treePrefabs; // Ağaçlar için prefablar (3 farklı ağaç)
-        public GameObject[] rockPrefabs; // Kayalar için prefablar (3 farklı kaya)
-        public float cellSize = 1f;
+        [field: SerializeField] public int Width { get; set; } = 100;
+        [field: SerializeField] public int Height { get; set; } = 100;
+        [field: SerializeField] public GameObject GroundPrefab { get; set; }
+        [field: SerializeField] public GameObject[] TreePrefabs { get; set; }
+        [field: SerializeField] public GameObject[] RockPrefabs { get; set; }
+        [field: SerializeField] public float CellSize { get; set; } = 1f;
 
         private void Start()
         {
             GenerateGrid();
         }
 
-        void GenerateGrid()
+        private void GenerateGrid()
         {
-            for (int x = 0; x < width; x++)
+            for (var x = 0; x < Width; x++)
             {
-                for (int z = 0; z < height; z++)
+                for (var z = 0; z < Height; z++)
                 {
-                    Vector3 position = new Vector3(x * cellSize, 0, z * cellSize);
+                    var position = new Vector3(x * CellSize, 0, z * CellSize);
 
-                    // Her hücre için zemin yerleştirme
-                    Instantiate(groundPrefab, position, Quaternion.identity);
+                    // Floor placement for each cell
+                    Instantiate(GroundPrefab, position, Quaternion.identity);
 
-                    // Rastgele nesne yerleştirme
-                    if (Random.value > 0.8f) // %20 şans ile ağaç veya kaya yerleştir
+                    // Random object placement
+                    if (Random.value > 0.8f) // Place tree or rock with 20% chance
                     {
-                        if (Random.value > 0.5f) // %50 şans ile ağaç
+                        if (Random.value > 0.5f) // Tree with 50% chance
                         {
-                            GameObject tree = treePrefabs[Random.Range(0, treePrefabs.Length)];
+                            var tree = TreePrefabs[Random.Range(0, TreePrefabs.Length)];
                             Instantiate(tree, position, Quaternion.identity);
                         }
-                        else // %50 şans ile kaya
+                        else // Rock with 50% chance
                         {
-                            GameObject rock = rockPrefabs[Random.Range(0, rockPrefabs.Length)];
+                            var rock = RockPrefabs[Random.Range(0, RockPrefabs.Length)];
                             Instantiate(rock, position, Quaternion.identity);
                         }
                     }

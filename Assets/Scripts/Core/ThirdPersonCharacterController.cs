@@ -28,7 +28,7 @@ namespace Core
             _controller = GetComponent<CharacterController>();
             
             // Spawn the Player at the center of the Grid
-            transform.position = gridManager.width / 2f * Vector3.right + gridManager.height / 2f * Vector3.forward;
+            transform.position = gridManager.Width / 2f * Vector3.right + gridManager.Height / 2f * Vector3.forward;
         }
         
         private void Update()
