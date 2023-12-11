@@ -24,7 +24,11 @@ This project was developed using Unity 2022.3 LTS. Key features and concepts use
 - Character Controller
 
 # Visuals
-![Forest Simulator]()
+![Forest Simulator](https://github.com/oktayturkdagli/forest-simulation/assets/61520877/80dcdadb-3459-46ab-99f9-b5d919b4dc44)
+
+
+
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
