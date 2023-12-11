@@ -20,8 +20,11 @@ Also, to recalculate the Occlusion Culling map, go to `Window > Rendering > Occl
 
 This project was developed using Unity 2022.3 LTS. Key features and concepts used include:
 
-- Unity AI Navigation
-- Character Controller
+- The Character Controller system was used to generate character movements.
+- NavMesh AI system was used to generate animal movements.
+- Grid system was developed to create grid-based environment layout.
+- LOD system was used to dynamically load objects around the user based on distance and camera.
+- Occlusion Culling system was used to hide objects not visible to the camera.
 
 # Visuals
 https://github.com/oktayturkdagli/forest-simulation/assets/61520877/0e056b37-5238-472a-9389-47678b0145af
