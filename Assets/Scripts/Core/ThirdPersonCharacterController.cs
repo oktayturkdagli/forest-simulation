@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Core
 {
@@ -22,13 +23,23 @@ namespace Core
         [SerializeField] private Transform cam;
         [SerializeField] private float mouseSensitivity = 300f;
         private float _cameraVerticalAngle;
-        
+
+        private void Awake()
+        {
+            SetupCharacterController();
+        }
+
         public void SetupCharacterController()
         {
             _controller = GetComponent<CharacterController>();
             
+            if (!gridManager)
+                return;
+            
             // Spawn the Player at the center of the Grid
-            transform.position = gridManager.Width / 2f * Vector3.right + gridManager.Height / 2f * Vector3.forward;
+            var spawnPosition = gridManager.Width / 2f * Vector3.right + gridManager.Height / 2f * Vector3.forward;
+            spawnPosition.y = 0.5f;
+            transform.position = spawnPosition;
         }
         
         private void Update()

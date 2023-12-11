@@ -1,18 +1,30 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 namespace Core
 {
     public class GameManager : MonoBehaviour
     {
         [field: SerializeField] public GridManager GridManager { get; set; }
-        [field: SerializeField] public OcclusionCullingManager OcclusionCullingManager { get; set; }
         [field: SerializeField] public ThirdPersonCharacterController ThirdPersonCharacterController { get; set; }
-        
-        private void Awake()
+    }
+    
+    
+    [CustomEditor(typeof(GameManager))]
+    public class GameManagerEditor : Editor
+    {
+        public override void OnInspectorGUI()
         {
-            GridManager.SetupGrid();
-            OcclusionCullingManager.SetupOcclusionCulling();
-            ThirdPersonCharacterController.SetupCharacterController();
+            DrawDefaultInspector();
+
+            GameManager gameManager = (GameManager)target;
+            
+            GUILayout.Space(10);
+            if (GUILayout.Button("Create Randomize Forest"))
+            {
+                gameManager.GridManager.SetupGrid();
+                gameManager.ThirdPersonCharacterController.SetupCharacterController();
+            }
         }
     }
 }

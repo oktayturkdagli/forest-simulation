@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Unity.AI.Navigation;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -17,11 +18,27 @@ namespace Core
         
         public void SetupGrid()
         {
+            ClearGrid();
+            ClearNavMesh();
             GenerateGrid();
             GenerateStaticObjects();
             BuildNavMesh();
             GenerateDynamicObjects();
         }
+        
+        private void ClearGrid()
+        {
+            // Destroy child objects one by one
+            for (var i = transform.childCount - 1; i >= 0; i--)
+            {
+                var child = transform.GetChild(i).gameObject;
+                if (Application.isEditor)
+                    DestroyImmediate(child);
+                else
+                    Destroy(child);
+            }
+        }
+
         
         private void GenerateGrid()
         {
@@ -101,8 +118,15 @@ namespace Core
         private void BuildNavMesh()
         {
             var navMeshSurface = GetComponent<NavMeshSurface>();
-            if (navMeshSurface != null)
+            if (navMeshSurface)
                 navMeshSurface.BuildNavMesh();
+        }
+        
+        private void ClearNavMesh()
+        {
+            var navMeshSurface = GetComponent<NavMeshSurface>();
+            if (navMeshSurface)
+                navMeshSurface.RemoveData();
         }
     }
 }
