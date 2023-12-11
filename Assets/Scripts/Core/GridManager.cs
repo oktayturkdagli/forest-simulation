@@ -1,5 +1,7 @@
+using System;
 using Unity.AI.Navigation;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Core
 {
@@ -12,8 +14,8 @@ namespace Core
         [field: SerializeField] public GameObject[] RockPrefabs { get; set; }
         [field: SerializeField] public GameObject[] AnimalPrefabs { get; set; }
         [field: SerializeField] public float CellSize { get; set; } = 1f;
-
-        private void Start()
+        
+        public void SetupGrid()
         {
             GenerateGrid();
             GenerateStaticObjects();
