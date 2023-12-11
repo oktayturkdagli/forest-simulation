@@ -6,11 +6,13 @@ namespace Core
     {
         [field: SerializeField] public GridManager GridManager { get; set; }
         [field: SerializeField] public OcclusionCullingManager OcclusionCullingManager { get; set; }
+        [field: SerializeField] public ThirdPersonCharacterController ThirdPersonCharacterController { get; set; }
         
         private void Awake()
         {
             GridManager.SetupGrid();
             OcclusionCullingManager.SetupOcclusionCulling();
+            ThirdPersonCharacterController.SetupCharacterController();
         }
     }
 }

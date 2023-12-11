@@ -23,7 +23,7 @@ namespace Core
         [SerializeField] private float mouseSensitivity = 300f;
         private float _cameraVerticalAngle;
         
-        private void Awake()
+        public void SetupCharacterController()
         {
             _controller = GetComponent<CharacterController>();
             
