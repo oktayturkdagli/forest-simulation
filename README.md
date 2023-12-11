@@ -25,11 +25,3 @@ This project was developed using Unity 2022.3 LTS. Key features and concepts use
 
 # Visuals
 https://github.com/oktayturkdagli/forest-simulation/assets/61520877/0e056b37-5238-472a-9389-47678b0145af
-
-
-
-
-
-
-## License
-This project is licensed under the [MIT License](LICENSE).
