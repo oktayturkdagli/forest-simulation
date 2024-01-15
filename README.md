@@ -27,4 +27,5 @@ This project was developed using Unity 2022.3 LTS. Key features and concepts use
 - Occlusion Culling system was used to hide objects not visible to the camera.
 
 # Visuals
-https://github.com/oktayturkdagli/forest-simulation/assets/61520877/0e056b37-5238-472a-9389-47678b0145af
+
+https://github.com/oktayturkdagli/forest-simulation/assets/61520877/6e6c0254-659f-450b-ac15-6dea47c1822b
